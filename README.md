@@ -282,6 +282,7 @@ MIT License
 
 ---
 
-# 👨‍💻 Author
+# for me 
 
 Built for experimenting with **local LLMs using Ollama + FastAPI**.
+
