@@ -7,7 +7,7 @@ This project allows users to chat with different AI models directly from a brows
 
 No external APIs required.
 
----
+
 
 # 🚀 Features
 
@@ -19,10 +19,9 @@ No external APIs required.
 • **Ollama local inference**
 • Simple and lightweight UI
 
----
+
 
 # 🧱 Project Structure
-
 ```
 ollama-multi-model-chat/
 
@@ -34,7 +33,6 @@ chatbot/
     index.html
 ```
 
----
 
 # 🐍 Python Requirements
 
@@ -52,7 +50,7 @@ Example output:
 Python 3.12.3
 ```
 
----
+
 
 # 📦 Install Python (if not installed)
 
@@ -81,10 +79,8 @@ Make sure to enable:
 Add Python to PATH
 ```
 
----
 
 # 🧠 Install Ollama
-
 Install Ollama:
 
 ```
@@ -103,7 +99,6 @@ Ollama runs on:
 http://localhost:11434
 ```
 
----
 
 # 🤖 Download AI Models
 
@@ -135,7 +130,6 @@ llama3:8b
 deepseek-r1:8b
 ```
 
----
 
 # 📥 Clone the Repository
 
@@ -144,7 +138,6 @@ git clone https://github.com/YOUR_USERNAME/ollama-multi-model-chat.git
 cd ollama-multi-model-chat
 ```
 
----
 
 # 🧪 Create Virtual Environment
 
@@ -174,7 +167,6 @@ You should now see:
 (venv)
 ```
 
----
 
 # 📚 Install Dependencies
 
@@ -190,7 +182,6 @@ Dependencies include:
 * uvicorn
 * requests
 
----
 
 # ▶️ Run the Server
 
@@ -206,7 +197,6 @@ You should see:
 Uvicorn running on http://0.0.0.0:8000
 ```
 
----
 
 # 🌐 Open the Web Interface
 
@@ -224,10 +214,8 @@ http://YOUR_PUBLIC_IP:8000
 
 Make sure **port 8000 is open in the security group**.
 
----
 
 # ⚙️ How It Works
-
 ```
 Browser UI
      ↓
@@ -246,7 +234,6 @@ http://localhost:11434/api/generate
 
 Ollama then runs the selected LLM model and streams the response back to the browser.
 
----
 
 # 🧠 Supported Models
 
@@ -261,7 +248,6 @@ This project works with many Ollama models including:
 | Llama 3     | ~8B  |
 | DeepSeek R1 | ~8B  |
 
----
 
 # 🧩 Future Improvements
 
@@ -274,15 +260,15 @@ Possible future features:
 • Authentication system
 • Model performance dashboard
 
----
 
 # 📜 License
 
 MIT License
 
----
 
-# for me 
 
-Built for experimenting with **local LLMs using Ollama + FastAPI**.
+# why i bulit it
+
+Built for experimenting with **local LLMs** ended up knowing **ollama** and **fastapi**
+
 
